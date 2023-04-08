@@ -223,11 +223,23 @@ footer>a{
 }
 
 /* Work */
+.amala{
+  background-color: #000013;
+  color: white;
+}
+.amala>h2{
+  color: white;
+}
+.kura{
+  background-color: #fff;
+}
 .project{
-  text-align: center;
   background-color: #f5f3f8;
 }
-.project>h2, .project2>h2, .project3>h2{
+.amala, .kura, .project{
+  text-align: center;
+}
+.amala>h2, .kura>h2, .project>h2, .project2>h2, .project3>h2{
   margin-bottom: 0;
 }
 .project>h2{
@@ -245,6 +257,9 @@ footer>a{
   text-align: center;
   background-color: #e8b387;
   color: white;
+}
+.kura-img{
+  width: 800px;
 }
 /* Note */
 #think{
@@ -300,4 +315,5 @@ footer>a{
   .project-img{
     max-width: 300px;
   }
+  
 }
