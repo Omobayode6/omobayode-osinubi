@@ -163,7 +163,7 @@ button {
   transition: all 0.2s ease;
   border: none;
   background: none;
- }
+}
 button:before {
   content: "";
   position: absolute;
@@ -223,6 +223,17 @@ footer>a{
 }
 
 /* Work */
+.mybalance{
+  background-color: #FFF2E8;
+  color: #373737;
+}
+.mybalance>h2{
+  margin-top: 20px;
+  color: black;
+}
+.mybalance>h3{
+  color: #234567
+}
 .amala{
   background-color: #000013;
   color: white;
@@ -236,10 +247,10 @@ footer>a{
 .project{
   background-color: #f5f3f8;
 }
-.amala, .kura, .project{
+.mybalance, .amala, .kura, .project{
   text-align: center;
 }
-.amala>h2, .kura>h2, .project>h2, .project2>h2, .project3>h2{
+.mybalance>h2, .amala>h2, .kura>h2, .project>h2, .project2>h2, .project3>h2{
   margin-bottom: 0;
 }
 .project>h2{
@@ -258,8 +269,10 @@ footer>a{
   background-color: #e8b387;
   color: white;
 }
-.kura-img{
-  width: 800px;
+.project-img{
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* ie8 */
 }
 /* Note */
 #think{
@@ -311,9 +324,4 @@ footer>a{
   .down-img{
     margin-top: 20px;
   }
-  /* work */
-  .project-img{
-    max-width: 300px;
-  }
-  
 }
