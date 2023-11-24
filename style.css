@@ -122,7 +122,6 @@ li, a, .cta{
 }
 .about{
   text-align: center;
- 
 }
 .about>img{
   width: 200px;
@@ -156,7 +155,7 @@ li, a, .cta{
 button>a{
   text-decoration: none;
 }
-button {
+button{
   position: relative;
   margin: 30px auto 0;
   padding: 12px 18px;
@@ -164,7 +163,7 @@ button {
   border: none;
   background: none;
 }
-button:before {
+button:before{
   content: "";
   position: absolute;
   top: 0;
@@ -175,16 +174,16 @@ button:before {
   width: 45px;
   height: 45px;
   transition: all 0.3s ease;
- }
-button span {
+}
+button span{
   position: relative;
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   font-weight: 700;
   letter-spacing: 0.05em;
   color: #234567;
- }
-button svg {
+}
+button svg{
   position: relative;
   top: 0;
   margin-left: 10px;
@@ -195,16 +194,15 @@ button svg {
   stroke-width: 2;
   transform: translateX(-5px);
   transition: all 0.3s ease;
- }
-button:hover:before {
+}
+button:hover:before{
   width: 100%;
   background: #e9ebec;
-
- }
-button:hover svg {
+}
+button:hover svg{
   transform: translateX(0);
- }
-button:active {
+}
+button:active{
   transform: scale(0.95);
 }
 footer{ 
@@ -290,7 +288,6 @@ footer>a{
   }
   ul{
     flex-direction: column;
-    
   }
   nav{
     display: none;
